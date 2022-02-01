@@ -6,11 +6,11 @@ This is Group 16's entry for SYSC3110's Monopoly Project. Also, please note that
 Exclaimer: This README file is best read on GitHub and was authored by Jeremy Trendoff.
 
 ## Authors
+Gilles Myny - 101145477
+
 Jeremy Trendoff - 101160306
 
 Frank Dow - 101140402
-
-Gilles Myny - 101145477
 
 Joshua Gatto - 101150890
 
