@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Monopoly" default="packaging" basedir=".">
+    <description>
+        Build File for Team 16's Monopoly Project.
+        Author: Jeremy Trendoff - 101160306
+    </description>
+
+    <property name="src" location="src"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
+
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp/>
+        <!-- Create the build directory structure used by compile -->
+        <mkdir dir="${build}"/>
+    </target>
+
+    <include file="canada.xml"/>
+    <include file="usa.xml"/>
+    <include file="uk.xml"/>
+
+    <target name="packaging" depends="init" description="compile the source">
+        <!-- Compile the Java code from ${src} into ${build} -->
+        <javac srcdir="${src}" destdir="${build}"/>
+        <!-- Create the distribution directory -->
+        <mkdir dir="${dist}/lib"/>
+        <!-- Put everything in ${build} into the Monopoly-${DSTAMP}.jar file -->
+        <jar jarfile="${dist}/lib/Monopoly-${DSTAMP}.jar" basedir="${build}">
+            <!--<manifest>
+                <attribute name="Main-Class" value="src.View"/>
+                <attribute name="Class-Path" value=""/>
+            </manifest>-->
+        </jar>
+    </target>
+
+    <target name="run" depends="packaging">
+        <java jar="dist/lib/Monopoly-${DSTAMP}.jar" fork="true" failonerror="true">
+            <arg value="-h"/>
+            <classpath>
+                <pathelement location="dist/lib/AddressBook-20211202.jar"/>
+                <pathelement path="${java.class.path}"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="clean" description="clean up">
+        <!-- Delete the ${build} and ${dist} directory trees -->
+        <delete dir="${build}"/>
+        <delete dir="${dist}"/>
+    </target>
+</project>
