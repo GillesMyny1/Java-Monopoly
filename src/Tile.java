@@ -1,11 +1,5 @@
 import java.util.*;
-/**
- * The abstract Tile Class
- *
- * @author Joshua Gatto
- * @version 3.0
- * @since Nov 22nd, 2021
- */
+
 public abstract class Tile implements java.io.Serializable {
     /**
      * The name of the tile.
