@@ -1,14 +1,5 @@
 import java.awt.event.*;
 
-/**
- * SYSC 3110 Monopoly - Milestone 2 GameController Controller Class
- * GameController is the Controller class for the game; handles all user control action listeners.
- *
- * @author Frank Dow - 101140402, Jeremy Trendoff - 101160306
- * @version 4.0
- * @since Nov 22nd, 2021
- */
-
 public class GameController implements ActionListener {
 
     /**
