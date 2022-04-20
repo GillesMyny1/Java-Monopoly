@@ -1,12 +1,5 @@
 import java.util.EventObject;
 
-/**
- * The PieceEvent Class. Contains the current piece being acted on.
- *
- * @author Jeremy Trendoff - 101160306
- * @version 1.0
- * @since Nov 21st, 2021
- */
 public class PieceEvent extends EventObject {
 
     /**
