@@ -1,10 +1,3 @@
-/**
- * The Property Class
- *
- * @author Joshua Gatto
- * @version 3.0
- * @since Nov 22nd, 2021
- */
 public class Railroad extends Ownable {
 
     /**
