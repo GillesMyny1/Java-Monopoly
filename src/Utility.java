@@ -1,10 +1,3 @@
-/**
- * The Utility Class
- *
- * @author Joshua Gatto
- * @version 3.0
- * @since Nov 22nd, 2021
- */
 public class Utility extends Ownable {
     /**
      * Default constructor that sets price to 0 and owned to false.
