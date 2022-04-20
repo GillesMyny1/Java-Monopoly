@@ -1,10 +1,3 @@
-/**
- * The GameView Interface to implement the boilerplate for handling game events.
- * 
- * @author Jeremy Trendoff - 101160306
- * @version 3.0
- * @since Nov 22nd, 2021
- */
 public interface GameView {
     /**
      * Prints welcome message given each Piece object (player).
