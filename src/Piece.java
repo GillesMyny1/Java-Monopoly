@@ -1,13 +1,5 @@
 import java.util.*;
 
-/**
- * The Piece Class
- *
- * @author Jeremy Trendoff - 101160306
- * @version 3.0
- * @since Nov 22nd, 2021
- */
-
 public class Piece implements java.io.Serializable {
 
     /**
