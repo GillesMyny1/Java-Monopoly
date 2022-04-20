@@ -1,16 +1,6 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-/**
- * SYSC 3110 Monopoly - Milestone 3 GameTest Test Model Class
- *
- * Test Class for Game Model
- *
- * @author Gilles Myny - 101145477, Frank Dow -101140402, Jeremy Trendoff - 101160306
- * @version 4.0
- * @since Nov 22nd, 2021
- */
-
 public class GameTest {
     /**
      * The game model for tests.
