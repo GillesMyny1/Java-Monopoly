@@ -1,12 +1,5 @@
 import java.util.EventObject;
 
-/**
- * The HouseEvent Class. Contains the properties where houses can be purchased.
- *
- * @author Jeremy Trendoff - 101160306
- * @version 1.0
- * @since Nov 21st, 2021
- */
 public class HouseEvent extends EventObject {
 
     /**
