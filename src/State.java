@@ -1,11 +1,3 @@
-/**
- * The States enum responsible for holding the values of States of the game.
- *
- * @author Jeremy Trendoff - 101160306
- * @version 1.0
- * @since Dec 4th, 2021
- */
-
 public enum State {
     /**
      * State to represent printing the users game state.
