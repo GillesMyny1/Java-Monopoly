@@ -3,15 +3,6 @@ import java.awt.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-/**
- * SYSC 3110 Monopoly - Milestone 2 GameFrame View Class
- * GameFrame is the View class for the game; handles all visual GUI aspects.
- *
- * @author Frank Dow - 101140402, Jeremy Trendoff - 101160306
- * @version 3.0
- * @since Nov 22nd, 2021
- */
-
 public class GameFrame extends JFrame implements GameView{
 
     /**
