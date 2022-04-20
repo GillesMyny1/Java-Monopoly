@@ -1,13 +1,5 @@
 import java.util.*;
 
-/**
- * SYSC 3110 Monopoly - Milestone 2 Board Class
- *
- * @author Gilles Myny - 101145477
- * @version 3.0
- * @since Nov 22nd, 2021
- */
-
 public class Board implements java.io.Serializable {
 
     /**
