@@ -1,12 +1,5 @@
 import java.util.EventObject;
 
-/**
- * The PropertyEvent Class. Contains the current properties being acted on.
- *
- * @author Jeremy Trendoff - 101160306
- * @version 1.0
- * @since Nov 21st, 2021
- */
 public class PropertyEvent extends EventObject {
 
     /**
