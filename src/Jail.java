@@ -1,11 +1,3 @@
-/**
- * The Jail Class
- *
- * @author Joshua Gatto & Gilles Myny
- * @version 3.0
- * @since Nov 22nd, 2021
- */
-
 public class Jail extends Tile{
 
     /**
