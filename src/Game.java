@@ -7,15 +7,6 @@ import javax.xml.parsers.SAXParserFactory;
 import java.io.*;
 import java.util.*;
 
-/**
- * Game class that will create the board, player pieces and have a text based version of the game
- * outputted to the console where the user can type their commands to the game.
- *
- * @author Frank Dow 101140402, Jeremy Trendoff - 101160306
- * @version 3.0
- * @since Nov 22nd, 2021
- */
-
 public class Game extends DefaultHandler implements java.io.Serializable {
     /**
      * The rent for a railroad.
